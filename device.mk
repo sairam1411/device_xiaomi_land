@@ -496,7 +496,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package \
-    libstdc++.vendor
+    libstdc++.vendor \
+    libwui
 
 # WiFi
 PRODUCT_PACKAGES += \
