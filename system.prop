@@ -33,6 +33,9 @@ ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
 ro.lmk.use_minfree_levels=true
 
+# RCS
+persist.rcs.supported=1
+
 # Telephony
 DEVICE_PROVISIONED=1
 persist.rild.nitz_long_ons_0=
