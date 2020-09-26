@@ -225,6 +225,7 @@ ro.telephony.default_network=22,22 \
 ro.telephony.use_old_mnc_mcc_format=true \
 service.qti.ims.enabled=1 \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+persist.vendor.radio.mt_sms_ack=30 \
 persist.vendor.qti.telephony.vt_cam_interface=1
 
 # Tcp
