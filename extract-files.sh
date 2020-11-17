@@ -68,6 +68,10 @@ function blob_fixup() {
         patchelf --remove-needed "libandroid_runtime.so" "${2}"
         ;;
 
+    vendor/lib64/libfpservice.so)
+        patchelf --add-needed "libshim_binder.so" "${2}"
+        ;;
+
     esac
 }
 
