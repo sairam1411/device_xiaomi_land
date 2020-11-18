@@ -280,7 +280,8 @@ PRODUCT_PACKAGES += \
 # Libshim
 PRODUCT_PACKAGES += \
     libshims_camera \
-    libshim_android
+    libshim_android \
+    libshim_binder
 
 # LiveDisplay native
 PRODUCT_PACKAGES += \

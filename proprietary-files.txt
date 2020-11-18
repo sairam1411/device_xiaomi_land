@@ -132,6 +132,12 @@ vendor/lib/libtm_interface.so
 -vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libtrueportrait.so
 vendor/lib/libubifocus.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libarcsoft_beauty_shot.so
+vendor/lib/libmmsw_detail_enhancement.so
+vendor/lib/libmmsw_platform.so
+vendor/lib64/libmmsw_detail_enhancement.so
+vendor/lib64/libmmsw_platform.so
 
 # Camera actuators
 vendor/lib/libactuator_bu64244gwz.so
