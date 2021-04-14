@@ -228,7 +228,8 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
-    ims-ext-common
+    ims-ext-common \
+    CarrierConfigOverlay
 
 # IPA Manager
 PRODUCT_PACKAGES += \
