@@ -195,8 +195,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     media.msm8956hw=0 \
     mmp.enable.3g2=true \
+    debug.stagefright.omx_default_rank.sw-audio=1 \
     media.aac_51_output_enabled=true
-
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
