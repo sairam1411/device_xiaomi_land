@@ -22,3 +22,10 @@ type sysfs_fps, sysfs_type, fs_type;
 
 type time_data_file, file_type, data_file_type, core_data_file_type;
 type mm-qcamera_exec, file_type;
+
+# XiaomiParts
+type sysfs_hgain, sysfs_type, fs_type; 
+type sysfs_mgain, sysfs_type, fs_type;
+type sysfs_sgain, sysfs_type, fs_type;
+type sysfs_torch, sysfs_type, fs_type;
+

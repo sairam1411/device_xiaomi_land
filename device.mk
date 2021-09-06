@@ -424,7 +424,8 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     init.msm.usb.configfs.rc \
     init.spectrum.rc \
-    init.spectrum.sh
+    init.spectrum.sh \
+    init.parts.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
