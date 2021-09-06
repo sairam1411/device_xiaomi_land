@@ -64,16 +64,27 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so|7fffcdca309796183708d9e345d3cd97461d901d
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|b5c57fdf48447c68b6308fdcb167d0d21b5c56ed
 
-# Bluetooth - from olive - QKQ1.191014.001
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|535491e4a8036125259bab4579a53cadcb08dcc3
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/hw/audio.bluetooth_qti.default.so|3bc621a919e9df64c4defac5652573c513e2e266
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|972442c77182b3bff960aa4028d231d963311d29
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|d4de3f73589623428d37f7779d06d017c5243b99
-vendor/lib64/libbluetooth_audio_session_qti.so|b761fbe8116d958782b810f4a6a0c3588bf7616d
-vendor/lib64/libbtnv.so|d40e0eeb8418c66af848398d25db0ecb1ba43227
-vendor/lib64/libbt-hidlclient.so|81fcadbaefea958b8c8d3161a339ac4800cd07b4
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|07e04d7936f0463aede02eb8182ec0e22485f467
+# Bluetooth - from LA.UM.8.6.r1-02600-89xx.0
+-system_ext/lib/libbtconfigstore.so|3aafa518b3b665f2d5aa933970a2292fa09d4f04
+-system_ext/lib64/libbtconfigstore.so|5fa6e5cb8d2c58fd766fba7a2650e6439d3ae86e
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2401640a10df4de23f704b87c4adab2da9ed111d
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|4286a6d6294df07c06d2dd7591d362477dc2be46
+vendor/lib64/libbtnv.so|07e031527e60ce5e62a5017fd1d7ff83ef1aafcf
+vendor/lib64/libbt-hidlclient.so|1491414e874419d2df1529c511bd48e348cf53a8
+
+# Bluetooth (Audio) - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib64/hw/audio.bluetooth_qti.default.so|e628e65d5c07c81ff96783217f8aaf46702aa992
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|b66dd9afad70780943187074abb332f84c6734d7
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|4e188cd7cc009ced6af7901f357005623dd0875a
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|a97a6c330c932176acee0bce820c6e737778aed4
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|2c5480b33615179e1a8a67bf93e190e8647c68b4
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|0abafcc0c404b67bb0d87128a87cc9deabe54935
+vendor/lib64/libbluetooth_audio_session_qti.so|9260e1e8011a68205474299dbb10ffcfeb34ee3a
+vendor/lib64/vendor.qti.hardware.bluetooth_audio@2.0.so|a6766f13b095a684b55ad69d33533b60741521f9
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|3281b131bf921fbdc00afe66cf2a0493a86b97a0
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|5de4a802667afa2c05b9c75ae6311fcd0c8b23f6
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|c56149fe7f8653cd9ab8d16378953ddfa5a422b4
 
 # Charger - from - LA.UM.9.6.2.r1-02500-89xx.0
 vendor/bin/hvdcp_opti|eab4eff705fc7f13249f953379b81aea2538255f
