@@ -663,9 +663,6 @@ vendor/bin/thermal-engine|633b9cff05ba176a18101bdfc03ecacc98e1e0f0
 -vendor/lib64/libthermalclient.so|148421212c4b2d3bcb37cb08f9542d3286f008c1
 vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 
-# Thermal (legacy) - from LA.UM.8.6.2.r1-08400-89xx.0
-vendor/lib64/hw/thermal.msm8937.so|cab0f6bc17afc5599e89ab05441906ff9b1066d1
-
 # Time services - from bsp- LA.UM.9.6.2.r1-02500-89xx.0
 vendor/lib/libtime_genoff.so|0e73ee0b125f4538d4afd76b4a4cd009176e98b1
 vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
