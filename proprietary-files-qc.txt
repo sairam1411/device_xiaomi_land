@@ -381,6 +381,10 @@ vendor/lib/libadpcmdec.so|7a38d6b28b27cf663681ad077614a03164418f91
 vendor/lib/libsmwrapper.so|f0ee761c02c888e77d947bb87d162d9379bc1530
 vendor/lib64/hw/sound_trigger.primary.msm8937.so|69ef98a548a597af630c70e40870b3de9dd8dfd3
 
+# Libunwind - from OSS prebuilt
+vendor/lib/libunwind.so|9c77ea40635e7437c4d07750843665d3c49ca24e
+vendor/lib64/libunwind.so|73ba4aac6b71fba80270e1661efe7470e770fe37
+
 # Media - from - LA.UM.9.6.2.r1-02500-89xx.0
 system_ext/lib/extractors/libmmparserextractor.so|67b406a1ad0825682dfae5745f43889381e6d473
 lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
