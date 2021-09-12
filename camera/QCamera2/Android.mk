@@ -76,11 +76,11 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/util \
         $(LOCAL_PATH)/HAL3 \
         hardware/libhardware/include/hardware \
-        $(call project-path-for,qcom-media)/libstagefrighthw \
-        $(call project-path-for,qcom-media)/mm-core/inc \
         system/core/include/cutils \
         system/core/include/system \
-        system/media/camera/include/system
+        system/media/camera/include/system \
+        $(LOCAL_PATH)/../../qcom-caf/media/libstagefrighthw \
+        $(LOCAL_PATH)/../../qcom-caf/media/mm-core/inc \
 
 #HAL 1.0 Include paths
 LOCAL_C_INCLUDES += \
@@ -103,7 +103,7 @@ endif
 
 #LOCAL_STATIC_LIBRARIES := libqcamera2_util
 LOCAL_C_INCLUDES += \
-        $(call project-path-for,qcom-display)/libqservice
+        $(LOCAL_PATH)/../../qcom-caf/display/libqservice
 LOCAL_SHARED_LIBRARIES := liblog libhardware libutils libcutils libdl libsync
 LOCAL_SHARED_LIBRARIES += libmmcamera_interface libmmjpeg_interface libui libcamera_metadata
 LOCAL_SHARED_LIBRARIES += libqdMetaData libqservice libbinder
