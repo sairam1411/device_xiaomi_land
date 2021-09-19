@@ -20,7 +20,7 @@
     <PreferenceCategory
         android:key="audio">
 
-        <org.lineageos.settings.preferences.SecureSettingCustomSeekBarPreference
+        <org.aospextended.settings.preferences.SecureSettingCustomSeekBarPreference
             android:defaultValue="-10"
             android:key="headphone_gain"
             android:max="20"
@@ -28,7 +28,7 @@
             android:icon="@drawable/ic_headphone"
             android:title="@string/headphone_gain" />
 
-        <org.lineageos.settings.preferences.SecureSettingCustomSeekBarPreference
+        <org.aospextended.settings.preferences.SecureSettingCustomSeekBarPreference
             android:defaultValue="0"
             android:key="microphone_gain"
             android:max="20"
@@ -36,7 +36,7 @@
             android:icon="@drawable/ic_mic"
             android:title="@string/microphone_gain" />
 
-        <org.lineageos.settings.preferences.SecureSettingCustomSeekBarPreference 
+        <org.aospextended.settings.preferences.SecureSettingCustomSeekBarPreference 
             android:defaultValue="0"
             android:key="speaker_gain" 
             android:max="20"

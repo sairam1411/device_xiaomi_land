@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.torch;
+package org.aospextended.settings.torch;
 
 import android.app.Activity;
 import android.app.Fragment;

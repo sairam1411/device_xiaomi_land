@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.preferences;
+package org.aospextended.settings.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;

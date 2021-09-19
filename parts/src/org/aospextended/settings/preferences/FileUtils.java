@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.preferences;
+package org.aospextended.settings.preferences;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,15 +1,15 @@
--keep class org.lineageos.settings.dirac.* {
+-keep class org.aospextended.settings.dirac.* {
   *;
 }
 
--keep class org.lineageos.settings.doze.* {
+-keep class org.aospextended.settings.doze.* {
   *;
 }
 
--keep class org.lineageos.settings.soundcontrol.* {
+-keep class org.aospextended.settings.soundcontrol.* {
   *;
 }
 
--keep class org.lineageos.settings.torch.* {
+-keep class org.aospextended.settings.torch.* {
   *;
 }

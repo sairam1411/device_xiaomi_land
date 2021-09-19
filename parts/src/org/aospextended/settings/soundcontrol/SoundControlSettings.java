@@ -15,7 +15,7 @@
  * limitations under the License
  */
 
-package org.lineageos.settings.soundcontrol;
+package org.aospextended.settings.soundcontrol;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,10 +24,10 @@ import androidx.preference.PreferenceFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
-import org.lineageos.settings.preferences.CustomSeekBarPreference;
-import org.lineageos.settings.preferences.FileUtils;
+import org.aospextended.settings.preferences.CustomSeekBarPreference;
+import org.aospextended.settings.preferences.FileUtils;
 
-import org.lineageos.settings.R;
+import org.aospextended.settings.R;
 
 public class SoundControlSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener {

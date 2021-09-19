@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package org.aospextended.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -23,11 +23,11 @@ import android.content.Intent;
 import android.util.Log;
 import android.provider.Settings;
 
-import org.lineageos.settings.dirac.DiracUtils;
-import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.preferences.FileUtils;
-import org.lineageos.settings.soundcontrol.SoundControlSettings;
-import org.lineageos.settings.torch.TorchSettings;
+import org.aospextended.settings.dirac.DiracUtils;
+import org.aospextended.settings.doze.DozeUtils;
+import org.aospextended.settings.preferences.FileUtils;
+import org.aospextended.settings.soundcontrol.SoundControlSettings;
+import org.aospextended.settings.torch.TorchSettings;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
