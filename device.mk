@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
+    android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio@2.0-impl \
     vendor.qti.hardware.btconfigstore@1.0 \
     vendor.qti.hardware.btconfigstore@2.0 \
@@ -183,7 +184,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.land
+    android.hardware.biometrics.fingerprint@2.1-service.land \
+    android.hardware.biometrics.fingerprint@2.2.vendor
 
 # FM
 PRODUCT_PACKAGES += \
@@ -208,10 +210,13 @@ PRODUCT_ODM_PROPERTIES += \
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.1.vendor \
     libcurl \
     libsensorndkbridge
 
@@ -232,7 +237,8 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system \
     android.hidl.manager@1.0-java \
-    libhidltransport
+    libhidltransport \
+    libhidltransport.vendor
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -270,7 +276,8 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
-    android.hardware.keymaster@3.0-service
+    android.hardware.keymaster@3.0-service \
+    android.hardware.keymaster@3.0.vendor
 
 # Legacy Encryption
 PRODUCT_PACKAGES += \
@@ -309,6 +316,10 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
     libandroid_net \
     netutils-wrapper-1.0
+
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
 
 # OMX
 PRODUCT_PACKAGES += \
@@ -403,6 +414,10 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.radio@1.5.vendor \
+    android.hardware.radio.config@1.2.vendor \
+    android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2.vendor \
     librmnetctl \
     libcnefeatureconfig \
     libxml2 \
@@ -416,9 +431,6 @@ PRODUCT_PACKAGES += \
     ims_ext_common.xml \
     libprotobuf-cpp-full \
     telephony-ext
-
-PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
