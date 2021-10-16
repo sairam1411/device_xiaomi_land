@@ -156,6 +156,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false
 
+# Fingeprint
+PRODUCT_PROPERTY_OVERRIDES += \
+fingerprint.nocleanup=true
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=0 \
