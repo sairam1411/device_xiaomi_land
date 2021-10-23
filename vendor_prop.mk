@@ -298,6 +298,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.soc.manufacturer=QTI \
 ro.soc.model=MSM8937
 
+# System
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.binary_xml=false
+
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
