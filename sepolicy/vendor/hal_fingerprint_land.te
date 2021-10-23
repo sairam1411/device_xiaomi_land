@@ -37,9 +37,10 @@ allow hal_fingerprint_land keystore:keystore_key { add_auth };
 # need to find KeyStore and add self
 
 allow hal_fingerprint_land keystore_service:service_manager find;
+get_prop(hal_fingerprint_land, default_prop)
 
 # Allow boot status
-get_prop(hal_fingerprint_default, boot_status_prop)
+get_prop(hal_fingerprint_land, boot_status_prop)
 
 # For permissions checking
 binder_call(hal_fingerprint_land, system_server);
