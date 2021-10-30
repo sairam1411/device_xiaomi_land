@@ -38,6 +38,9 @@ allow hal_fingerprint_land keystore:keystore_key { add_auth };
 
 allow hal_fingerprint_land keystore_service:service_manager find;
 
+# Allow boot status
+get_prop(hal_fingerprint_default, boot_status_prop)
+
 # For permissions checking
 binder_call(hal_fingerprint_land, system_server);
 allow hal_fingerprint_land permission_service:service_manager find;
