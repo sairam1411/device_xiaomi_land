@@ -422,6 +422,10 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libxml2 \
     rild \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-hidl-wrapper-prd \
