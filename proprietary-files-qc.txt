@@ -192,11 +192,11 @@ vendor/lib64/libStDrvInt.so|7c921ee6db896233f9ea03f1fb3a9b7d9434e7dc
 vendor/lib64/libops.so|b2223e64db9d8f84262da7a8621013d3c63b6c98
 vendor/lib64/libspl.so|0fa8c0711f72fc8a914dce044cf8dddd79ee62e1
 
-# DRM - Widevine - from Redmi/lmi/lmi:11/RKQ1.200826.002/20.10.19:user/release-keys
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2230b35e2d067ba92496cae131b00fd1bbc812c2
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|6a777556a80797c6c836d73885e0bcef5bbbfe54
+# DRM - Widevine - from Crosshatch - 12/SP1A.210812.015/7679548
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|fa8eab717cc2f8fd8d7737aed1bfda89da2b2a81
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libwvhidl.so|07a8861d3aa01ba535b7a1af808e012ba1dbe229
+vendor/lib64/libwvhidl@1.3.so|41f3cf8e694ca2aa723c9886809ade68f857cb05
 
 # DSP - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
