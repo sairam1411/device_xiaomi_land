@@ -210,10 +210,6 @@ persist.vendor.data.mode=concurrent
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-DEVICE_PROVISIONED=1 \
-persist.dbg.volte_avail_ovr=1 \
-persist.dbg.vt_avail_ovr=1 \
-persist.dbg.wfc_avail_ovr=1 \
 persist.radio.multisim.config=dsds \
 persist.vendor.radio.add_power_save=1 \
 persist.vendor.radio.apm_sim_not_pwdn=1 \
@@ -222,20 +218,38 @@ persist.vendor.radio.hw_mbn_update=0 \
 persist.vendor.radio.procedure_bytes=SKIP \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
-ril.subscription.types=NV,RUIM \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+service.qti.ims.enabled=1 \
+persist.dbg.volte_avail_ovr=1 \
+persist.dbg.vt_avail_ovr=1 \
+persist.dbg.wfc_avail_ovr=1 \
+persist.vendor.ims.disableIMSLogs=1 \
+persist.vendor.ims.disableADBLogs=1 \
+persist.vendor.ims.disableDebugDataPathLogs=1 \
+persist.vendor.ims.disableDebugLogs=1 \
+persist.vendor.ims.disableSigHandler=1 \
+persist.vendor.ims.disableQXDMLogs=1 \
+DEVICE_PROVISIONED=1 \
+persist.rild.nitz_long_ons_0= \
+persist.rild.nitz_long_ons_1= \
+persist.rild.nitz_long_ons_2= \
+persist.rild.nitz_long_ons_3= \
+persist.rild.nitz_plmn= \
+persist.rild.nitz_short_ons_0= \
+persist.rild.nitz_short_ons_1= \
+persist.rild.nitz_short_ons_2= \
+persist.rild.nitz_short_ons_3= \
+rild.libargs=-d /dev/smd0 \
+rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
+ril.subscription.types=NV,RUIM \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
-ro.telephony.use_old_mnc_mcc_format=true \
-service.qti.ims.enabled=1 \
-vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-persist.vendor.radio.mt_sms_ack=30 \
-persist.vendor.qti.telephony.vt_cam_interface=1
+ro.telephony.use_old_mnc_mcc_format=true
 
 # Tcp
 PRODUCT_PROPERTY_OVERRIDES += \
 net.tcp.2g_init_rwnd=10
-
 
 # Recovery
 PRODUCT_PROPERTY_OVERRIDES += \
