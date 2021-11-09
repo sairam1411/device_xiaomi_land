@@ -1,1 +1,2 @@
 allow netmgrd system_file:file { execute };
+set_prop(netmgrd, vendor_default_prop)
