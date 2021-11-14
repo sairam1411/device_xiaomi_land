@@ -161,7 +161,6 @@ PRODUCT_PACKAGES += \
     gralloc.msm8937 \
     hwcomposer.msm8937 \
     libdisplayconfig \
-    libdisplayconfig.qti.vendor \
     libqdMetaData.system \
     libtinyxml \
     libvulkan \
@@ -525,13 +524,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/firmware/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/firmware/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_cfg.ini
 
-# WiFi Display
-PRODUCT_BOOT_JARS += \
-   WfdCommon
-
 PRODUCT_PACKAGES += \
-    libaacwrapper \
-    libnl
+    libaacwrapper
 
 # Inherit common proprietary files
 $(call inherit-product-if-exists, vendor/xiaomi/land/land-vendor.mk)
