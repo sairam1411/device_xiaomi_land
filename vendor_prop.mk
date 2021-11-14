@@ -133,6 +133,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
 
+# Network manager
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.vendor.data.iwlan.enable=true
+
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpm.feature=0
