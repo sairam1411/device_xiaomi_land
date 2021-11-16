@@ -233,22 +233,6 @@ persist.vendor.ims.disableDebugDataPathLogs=1 \
 persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableSigHandler=1 \
 persist.vendor.ims.disableQXDMLogs=1 \
-DEVICE_PROVISIONED=1 \
-persist.rild.nitz_long_ons_0= \
-persist.rild.nitz_long_ons_1= \
-persist.rild.nitz_long_ons_2= \
-persist.rild.nitz_long_ons_3= \
-persist.rild.nitz_plmn= \
-persist.rild.nitz_short_ons_0= \
-persist.rild.nitz_short_ons_1= \
-persist.rild.nitz_short_ons_2= \
-persist.rild.nitz_short_ons_3= \
-rild.libargs=-d /dev/smd0 \
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
-ril.subscription.types=NV,RUIM \
-ro.telephony.call_ring.multiple=false \
-ro.telephony.default_network=22,22 \
-ro.telephony.use_old_mnc_mcc_format=true
 
 # Tcp
 PRODUCT_PROPERTY_OVERRIDES += \
