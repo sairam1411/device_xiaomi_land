@@ -311,11 +311,6 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.debug.wfd.enable=1
 
-#Blur
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.sf.blurs_are_expensive=1 \
-    ro.surface_flinger.supports_background_blur=1
-
 # Adreno
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.hardware.vulkan=adreno \
@@ -327,8 +322,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.zram.first_wb_delay_mins=180 \
     ro.zram.periodic_wb_delay_hours=24
 
-# Blurs
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.surface_flinger.supports_background_blur=1 \
-    persist.sys.sf.disable_blurs=1 \
-    ro.sf.blurs_are_expensive=1
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.device_config.runtime_native.usap_pool_enabled=true
