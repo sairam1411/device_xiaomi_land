@@ -15,3 +15,6 @@ persist.debug.sf.showfps    u:object_r:camera_dbg_prop:s0
 
 # Perf
 vendor.target.init.complete u:object_r:vendor_mpctl_prop:s0
+
+# Fingerprint
+fingerprint.nocleanup           u:object_r:vendor_fingerprint_prop:s0

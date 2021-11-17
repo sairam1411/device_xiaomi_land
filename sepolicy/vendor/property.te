@@ -9,3 +9,6 @@ type dirac_prop, property_type;
 
 # TimeKeep
 type vendor_timekeep_prop, property_type;
+
+# Fingerprint
+type vendor_fingerprint_prop, property_type;
