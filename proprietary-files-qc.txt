@@ -506,7 +506,7 @@ vendor/bin/qti|f2f60bc56d505905a0e589f1ae039b81069e3776
 vendor/bin/rmt_storage|67694a89193cb33d52be46a090db104869cc40ad
 vendor/bin/tftp_server|791ed02bb98d7601601ae586f85dc4a986451e10
 vendor/etc/data/dsi_config.xml|27a9616809d2e2355640d5e7cdb7268eba9f6a0d
-vendor/etc/data/netmgr_config.xml|b87b057d87139c7ac866dc5f75c498de1e8ab361
+vendor/etc/data/netmgr_config.xml|ba88986b26bd8391c022121bc502cb42beef02f7
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
