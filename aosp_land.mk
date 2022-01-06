@@ -46,3 +46,11 @@ BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V10.2.2.0.MALMIXM:user/releas
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
+# Set this flag in build script
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
+# Use Gapps
+WITH_CORE_GAPPS := true
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+endif
